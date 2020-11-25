@@ -1,0 +1,100 @@
+.product-item {
+  width: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: solid 1px #f0f0f0;
+  padding-bottom: 20px;
+}
+  
+  
+.product-item-image {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  width: 105px;
+  height: 105px;
+  margin-right: 5px;
+}
+  
+.product-item-rating-container {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  display: flex;
+  align-items: center;
+  right: 5%;
+  top: 0;
+  align-items: flex-end;
+}
+  
+.product-item-rating {
+  color: #757575;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 13px;
+}
+  
+.product-item-five {
+  font-size: 0.8rem;
+  color: #757575;
+  font-weight: 400;
+  margin-right: 2px;
+  align-self: flex-end;
+}
+  
+.product-item-rating-icon {
+  font-size: 0.6rem;
+  color: #757575;
+  align-self: center;
+}
+  
+.text-box {
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+}
+  
+.text-box-name {
+  cursor: pointer;
+  font-size: 0.90rem;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  line-height: 1.2;
+  justify-content: flex-end;
+  margin-top: auto;
+  word-wrap: break-word;
+  width: 222px;
+  font-size: 13px;
+}
+  
+.text-box-weight {
+  color: #757575;
+  font-size: 0.8rem;
+}
+  
+.text-box-price-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;  
+  justify-content: unset;
+}
+  
+.text-box-final-price {
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+  
+.text-box-price {
+  text-decoration: line-through;
+  color: #757575;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-size: 13px;
+}
+  

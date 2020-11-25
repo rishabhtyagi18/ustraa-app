@@ -1,0 +1,206 @@
+.productContainer {
+    margin: 0 auto;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 184px;
+    border-bottom: solid 1px #f0f0f0;
+    padding: 6px 15px;
+}
+
+.item-flex {
+    display: flex;
+    padding: 8px 0 10px 0;
+    width: 86%;
+}
+
+.price {
+    margin: 0;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    margin-right: 10px;
+}
+
+.not-in-stock {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.add-to-cart {
+    border: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    font-size: inherit;
+    font-weight: inherit;
+    position: relative;
+    line-height: 36px;
+    min-width: 88px;
+    color: rgba(0, 0, 0, 0.87);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    border-radius: 2px;
+    user-select: none;
+    overflow: hidden;
+    background-color: rgb(79, 207, 100);
+}
+
+.add-to-Cart-text {
+    position: relative;
+    padding: 3px;
+    vertical-align: middle;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px !important;
+    color: #fff !important;
+    width: 145px !important;
+    text-align: center !important;
+    display: flex !important;
+    white-space: nowrap !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+}
+
+.out-of-stock {
+    border: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    font-size: inherit;
+    font-weight: inherit;
+    position: relative;
+    line-height: 36px;
+    min-width: 88px;
+    color: rgba(0, 0, 0, 0.87);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    border-radius: 2px;
+    user-select: none;
+    overflow: hidden;
+    background-color: #b0b0b0;
+}
+
+.product-name {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    width: 92%;
+}
+
+.product-rating {
+    position: relative;
+    top: -60px;
+    font-size: 13px;
+    display: flex;
+    color: #b0b0b0;
+}
+
+.product-data {
+    width: 52%;
+}
+
+.more-flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.view-more {
+    border: 0;
+    background: #fff;
+    padding: 20px;
+    color: gray;
+    outline: 0;
+    padding-top: 35px;
+}
+
+.makeStyles-formControl-1 {
+    width: 0 !important;
+    margin: 0 !important;
+    position: relative !important;
+    top: -55px;
+    align-items: flex-end;
+    left: calc(100% - 271px);
+    border-right: 0.5px solid #b0b0b0 !important;
+    height: 29px;
+}
+
+.PrivateNotchedOutline-root-3 {
+    border: 0 !important;
+}
+
+.MuiSelect-select:focus {
+    background-color: #fff !important;
+}
+
+.show-items {
+    position: relative;
+    top: -32px;
+    left: 11px;
+    font-size: 12px;
+    width: 40%;
+}
+
+.change {
+    margin-left: 14vw;
+    margin-top: -9px;
+}
+
+.MuiInputBase-input {
+    width: 140px !important;
+}
+
+
+.product-list-outer {
+    display: flex;
+    justify-content: center;
+  }
+  
+.product-list-inner {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 60px;
+    text-align: center;
+    grid-template-columns: 100%;
+    text-align: left;
+    width: 100%;
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+  
+.product-list-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: none;
+}
